@@ -30,9 +30,9 @@ Thanks to **Harsh Vandana Sharma Sir** for his continuous support.
 **(Day 4)**  
 **🚀 Technology Used:** HTML, CSS
 
-- **🌐 Live Demo (Netlify):** [View Live Website (Netlify)](https://sandip-cohort.netlify.app/day%203/)  
-- **🌐 Live Demo (GitHub):** [View Live Website (GitHub Pages)](https://sandip3.github.io/Sheryians-coding-school_Cohort/Day%203/)  
-- **📂 Source Code (GitHub):** [GitHub Repository](https://github.com/sandip3/Sheryians-coding-school_Cohort)
+- **🌐 Live Demo (Netlify):** [View Live Website (Netlify)](https://pradip-cohort.netlify.app/assignment/day%203/)  
+- **🌐 Live Demo (GitHub):** [View Live Website (GitHub Pages)](https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%203/)  
+- **📂 Source Code (GitHub):** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort)
 
 **🖼️ Project Preview:**  
 ![Blog Website with CSS Preview](../../Public/Day%204.gif)
