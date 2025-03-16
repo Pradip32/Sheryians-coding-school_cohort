@@ -1,0 +1,87 @@
+@import url('https: //fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* universal sign  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    /* padding: 10px; */
+}
+
+
+
+header {
+    margin: 10px;
+
+    & h1,
+    p {
+        text-align: center;
+    }
+
+    & h1 {
+        font-size: 1.9rem;
+    }
+
+    & p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+main {
+    /* padding: 10px; */
+
+    & .child {
+        border: 1.5px solid rgb(214, 214, 214);
+        border-radius: 10px;
+        padding: 5px;
+
+        text-align: center;
+        margin: 10px;
+    }
+
+    & .child img {
+        width: 100%;
+        padding: 10px;
+        /* height: 300px; */
+    }
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: rgb(141, 141, 141);
+}
+
+
+@media (min-width:600px) {
+    html {
+        font-size: 16px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    main {
+
+        & section-1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 10px;
+        }
+    }
+}
+
+
+@media (min-width:1024px) {}
