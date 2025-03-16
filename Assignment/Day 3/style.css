@@ -27,6 +27,7 @@ body {
 
   color: white;
   background: linear-gradient(to top, #09122C, #872341, #BE3144, #E17564, #BE3144, #872341, #09122C);
+
 }
 
 
@@ -52,6 +53,10 @@ nav {
 a {
   color: white;
   text-decoration: none;
+
+  &:active {
+    color: black;
+  }
 }
 
 /* main */
@@ -77,6 +82,14 @@ img {
 
   border: 3px solid black;
   border-radius: 76px;
+  /* transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1); */
+
+  animation: big 5s infinite cubic-bezier(0.19, 1, 0.22, 1);
+  /* &:hover {
+    transform: rotate(270deg) scale(1.3);
+    box-shadow: -10px -10px 40px #000;
+  } */
+
 }
 
 ul {
@@ -84,12 +97,12 @@ ul {
 }
 
 /* form */
-form{
-  background: linear-gradient(#22092C,#F05941,#22092C);
-  color: #F5E8C7;
-  
+form {
+  background: white;
+  color: #000;
+
   width: 30%;
-  
+
   margin: 0 auto;
   padding: 30px;
 
@@ -98,30 +111,60 @@ form{
 
   text-align: center;
   font-size: 1.2rem;
+
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: -10px -10px 40px #000;
+  }
 }
 
-label{
-  padding : 5px 0px;
+label {
+  padding: 5px 0px;
   margin: 15px 0px;
 }
 
-input,textarea  {
-  width: 100%;  
+input,
+textarea {
+  width: 100%;
   padding: 3px 5px;
+  background-color: rgb(255, 253, 253);
+
+  &:focus {
+    background: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+  }
+
+  &:hover {
+    background: rgb(209, 209, 209);
+  }
 }
 
-button{
+button {
   padding: 5px 10px;
-  
+
   font-size: 1.2rem;
-  
+
   color: black;
-  background: #BE3144;
-  
-  border :0;
-  border-radius: 10px;
+  background: rgba(0, 183, 255, 0.906);
+
+  border: 0;
+
+  transition: all .2s cubic-bezier(0.19, 1, 0.22, 1);
+
+  &:hover {
+    transform: scale(.9);
+  }
 }
 
-button:hover{
-  background: #BED754;
+@keyframes big {
+  0% {}
+
+  50% {
+    transform: rotate(360deg) scale(1.3);
+    box-shadow: -10px -10px 40px #000;
+  }
+
+  100% {}
 }
