@@ -1,0 +1,92 @@
+@import url('https: //fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* universal sign  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+header h1 {
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(217, 216, 216);
+    background: rgb(241, 241, 241);
+}
+
+header nav .nav {
+    padding-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.section-1 {
+    display: flex;
+}
+
+aside {
+    background: rgb(230, 230, 230);
+    width: 15%;
+    padding: 10px;
+    border-right: 1px solid rgb(204, 204, 204);
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.section-1 h3 {
+    padding: 10px;
+}
+
+aside a {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: block;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    border-bottom: 2px dotted gray;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+}
+
+main .img {
+    padding: 15px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+ul{
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+img {
+    height: 400px;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+    background: rgb(39, 39, 39);
+    color: white;
+}
