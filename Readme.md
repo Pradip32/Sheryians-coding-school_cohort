@@ -21,7 +21,7 @@ This repository documents my progress in the **Job Ready AI Powered Cohort: Comp
 - **Live Links:**  
   - 🌐 **Netlify:** [https://pradip-cohort.netlify.app/assignment/day%203/](https://pradip-cohort.netlify.app/assignment/day%203/)  
   - 🌐 **GitHub Pages:** [https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%203/](https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%203/)  
-- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%203#assignment-1--2-blog-website-about--contact-us-page)  
+- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%203)  
 - **Project Preview:**  
   ![Blog Website Preview](./Public/Day%203.gif)  
 _Refer to the [Assignment 1 README](./Assignment/Day%203/readme.md#assignment-1--2-blog-website-about--contact-us-page) for more details._
@@ -31,9 +31,9 @@ _Refer to the [Assignment 1 README](./Assignment/Day%203/readme.md#assignment-1-
 - **Live Links:**  
   - 🌐 **Netlify:** [https://pradip-cohort.netlify.app/assignment/day%203/](https://pradip-cohort.netlify.app/assignment/day%203/)  
   - 🌐 **GitHub Pages:** [https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%203/](https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%203/)  
-- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort)  
+- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%203)  
 - **Project Preview:**  
-  ![About & Contact Preview](./Public/Day%203.gif)  
+  ![About & Contact Preview](./Public/Day%203.gif)
 
 ---
 
@@ -144,7 +144,7 @@ _Refer to the [Assignment 1 README](./Assignment/Day%203/readme.md#assignment-1-
 - **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%2015)  
 - **Project Preview:**  
   _*(No preview available)*_  
-_Refer to the [Assignment 12 README](./Assignment/Day%2015%20JS%20/Readme.md) for more details._
+_Refer to the [Assignment 12 README](./Assignment/Day%2015/readme.md#assignment-12-js-practice-question) for more details._
 
 ---
 
@@ -158,4 +158,4 @@ _Refer to the [Assignment 12 README](./Assignment/Day%2015%20JS%20/Readme.md) fo
 - **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%2027)  
 - **Project Preview:**  
   _*(No preview available)*_  
-_Refer to the [Assignment 14 README](./Assignment/Day%2027/Readme.md) for more details._
+_Refer to the [Assignment 14 README](./Assignment/Day%2027/readme.md#assignment-14-javascript-dsa-practice-question) for more details._
