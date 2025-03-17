@@ -44,7 +44,7 @@ _Refer to the [Assignment 1 README](./Assignment/Day%203/readme.md#assignment-1-
 - **Live Links:**  
   - 🌐 **Netlify:** [https://pradip-cohort.netlify.app/assignment/day%204/](https://pradip-cohort.netlify.app/assignment/day%204/)  
   - 🌐 **GitHub Pages:** [https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%204/](https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%204/)  
-- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%204)  
+- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%203)  
 - **Project Preview:**  
   ![CSS Styled Blog Preview](./Public/Day%204.gif)
 
@@ -62,7 +62,7 @@ _Refer to the [Assignment 1 README](./Assignment/Day%203/readme.md#assignment-1-
 - **Live Links:**  
   - 🌐 **Netlify:** [https://pradip-cohort.netlify.app/assignment/day%206/](https://pradip-cohort.netlify.app/assignment/day%206/)  
   - 🌐 **GitHub Pages:** [https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%206/](https://pradip32.github.io/Sheryians-coding-school_cohort/Assignment/Day%206/)  
-- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%206)  
+- **Source Code:** [GitHub Repository](https://github.com/Pradip32/Sheryians-coding-school_cohort/tree/main/Assignment/Day%203)  
 - **Project Preview:**  
   ![Styled Blog & Form Preview](./Public/Day%206.gif)
 
