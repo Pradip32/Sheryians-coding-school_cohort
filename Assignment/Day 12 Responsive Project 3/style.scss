@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  width: 100%;
+  padding: 1rem;
+  .view-1 {
+    width: 100%;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    .img {
+      gap: 1rem;
+      margin-top: 2rem;
+      width: 100%;
+      display: grid;
+      img {
+        width: 100%;
+      }
+
+      grid-template-areas:
+        "a a b b"
+        "a a b b"
+        "a a b b"
+        "a a b b"
+        "a a c c"
+        "a a c c"
+        "a a c c";
+
+      img {
+        border-radius: 10px;
+      }
+      .img-a {
+        grid-area: a;
+      }
+      .img-b {
+        grid-area: b;
+      }
+      .img-c {
+        grid-area: c;
+      }
+    }
+  }
+}
+
+@media (min-width: 1020px) {
+  main {
+    .view-1 {
+      width: 100%;
+      display: flex;
+      .text {
+        width: 60%;
+        margin-right: 10rem;
+        h1 {
+          font-size: 4rem;
+        }
+      }
+      .img {
+        gap: 0rem;
+
+        width: 40%;
+        gap: 0.8rem;
+        grid-template-areas:
+          ". . b b"  
+          "a a b b"
+          "a a b b"
+          "a a b b"
+          "a a c c"
+          "a a c c"
+          ". . c c"
+          ;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

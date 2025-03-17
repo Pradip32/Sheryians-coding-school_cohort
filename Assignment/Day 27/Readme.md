@@ -2,7 +2,9 @@
 
 **Sheryians Coding School**
 
-This document contains practice questions focused on JavaScript's increment (`++`) and decrement (`--`) operators. Each question is presented with its code snippet and an expected output (provided as guidance) to help you verify your understanding.
+This document contains practice questions focused on JavaScript's increment (`++`) and decrement (`--`) operators. 
+
+Each question is presented with its code snippet and an expected output (provided as guidance) to help you verify your understanding.
 
 ---
 

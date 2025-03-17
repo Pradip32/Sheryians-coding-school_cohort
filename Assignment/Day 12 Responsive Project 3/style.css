@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  padding: 1rem;
+}
+main .view-1 {
+  width: 100%;
+}
+main .view-1 h1 {
+  font-size: 2rem;
+}
+main .view-1 p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+main .view-1 .img {
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "a a b b" "a a b b" "a a b b" "a a b b" "a a c c" "a a c c" "a a c c";
+}
+main .view-1 .img img {
+  width: 100%;
+}
+main .view-1 .img img {
+  border-radius: 10px;
+}
+main .view-1 .img .img-a {
+  grid-area: a;
+}
+main .view-1 .img .img-b {
+  grid-area: b;
+}
+main .view-1 .img .img-c {
+  grid-area: c;
+}
+
+@media (min-width: 1020px) {
+  main .view-1 {
+    width: 100%;
+    display: flex;
+  }
+  main .view-1 .text {
+    width: 60%;
+    margin-right: 10rem;
+  }
+  main .view-1 .text h1 {
+    font-size: 4rem;
+  }
+  main .view-1 .img {
+    gap: 0rem;
+    width: 40%;
+    gap: 0.8rem;
+    grid-template-areas: ". . b b" "a a b b" "a a b b" "a a b b" "a a c c" "a a c c" ". . c c";
+  }
+  main .view-1 .img img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
